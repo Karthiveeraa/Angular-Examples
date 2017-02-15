@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en" ng-app="angularExample">
+  <head>
+
+    <title>
+      AngularJS - sample Conversion of UpperCase and LowerCase
+    </title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap includes !-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css">
+    
+    <!-- Angular Js includes !-->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-route.js"></script>
+
+    <!-- local includes !-->
+    <script src="JS/app.js"></script>
+
+  </head>
+  
+    <body ng-controller="personCtrl">
+    
+    <h1> Angular JS : sample Conversion of UpperCase and LowerCase</h1>
+
+    <p>
+    	First Name :  <input type="text" ng-model="inp1"/><br>
+    	Last Name :  <input type="text" ng-model="inp2"/><br>
+    </p>
+
+    <upper-Case></upper-Case>
+    <lower-Case></lower-Case>
+   
+    </body>
+</html>

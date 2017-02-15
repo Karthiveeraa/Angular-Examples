@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en" ng-app="angularExample">
+  <head>
+
+    <title>
+      AngularJS - Services Example
+    </title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap includes !-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css">
+    
+    <!-- Angular Js includes !-->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-route.js"></script>
+
+    <!-- local includes !-->
+    <script src="JS/app.js"></script>
+
+  </head>
+  
+    <body ng-controller="factCtrl">
+    
+    <h1> Angular JS : Services Example </h1>
+
+    <p>
+    	User Input : <input type="text" ng-model="userInp"/><br>
+    	Factorial :  {{ fact }} <br>
+    	<input type="button" ng-click="calcFactorial()" value="calculate factorial" />
+    </p>
+     
+    </body>
+</html>
